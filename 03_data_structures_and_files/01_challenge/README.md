@@ -1,10 +1,10 @@
-# Challenge 1
+# チャレンジ1
 
-1. In the `counter.py` file, write a program that counts the number of items appearing in the `fruits` list. 
+1. `fruits` リストの要素の数をカウントするプログラムを `counter.py` ファイルに書きます。 
 
-2. Save each element as a key in the `occurrences` dictionary. The value of each key should be the number of occurrences of this word.
+2. 各要素をキーとして `occurrences` 辞書に保存します。各キーの値はこの単語の出現回数です。
 
-3. When done, loop over the dictionary to print each key and value in the following structure:
+3. 完了したら、辞書をループ処理し、各キーと値を次のように出力します。
 
 ```
 banana: 2
@@ -16,7 +16,7 @@ kiwi: 1
 strawberry: 1
 ```
 
-Complete the code inside the `counter` function that is pre-written for you. We didn't cover user-defined functions yet but all you need to write for this challenge doesn't involve how functions work.
+事前に書かれている `counter` 関数のコードを完成させてください。ユーザー定義の関数についてはまだ説明していませんが、このチャレンジでは関数の仕組みを知らなくても大丈夫です。
 
 
 

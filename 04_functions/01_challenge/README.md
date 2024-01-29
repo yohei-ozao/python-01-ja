@@ -1,4 +1,4 @@
-## Challenge 1:
+## チャレンジ1
 
 
-Inside `calculator.py`, Create a simple calculator program in Python that performs basic arithmetic operations using functions. The calculator should allow users to `add`, `subtract`, `multiply`, and `divide` numbers. Make sure to write `if` conditions to ensure the input values to each function are valid. If any input is invalid, return the statement `"bad input"`. 
+基本的な算術演算を実行するシンプルな計算機のプログラムをPythonで作成してください。ファイル `calculator.py` の中に、関数を使用してプログラムを書いてください。この計算機では、数値の `add` (加算)、`subtract` (減算)、`multiply` (乗算)、`divide` (除算) をユーザーが実行できるようにします。必ず `if` 条件文を書いて、各関数への入力が有効な値であることを確認してください。入力が無効な場合は、`"bad input"` という文を返します。 

@@ -1,9 +1,9 @@
-# Challenge 2
+# チャレンジ2
 
-In the `factorial.py` file, write a program that takes a non-negative integer from the user and compute the factorial of this given number. The factorial of a number `n` — denoted by `n!` — is the product of all positive integers less than or equal to n. The factorial function is defined as `n! = n x (n - 1) x (n - 2) x ... x 3 x 2 x 1`
+ユーザーから負ではない整数を受け取り、その値の階乗を計算するプログラムを `factorial.py` ファイルに書いてください。数値 `n` の階乗 (`n!` で表す) とは、n以下のすべての正の整数の積です。階乗の関数は、`n! = n x (n - 1) x (n - 2) x ... x 3 x 2 x 1` と定義されています。
 
-For instance, the factorial of `5` is: `5 x 4 x 3 x 2 x 1` which equals `120`.
+たとえば、`5` の階乗は `5 x 4 x 3 x 2 x 1` であり、`120` になります。
 
-Complete the code inside the `computer_factorial` function that is pre-written for you. We didn't cover user-defined functions yet but all you need to write for this challenge doesn't involve how functions work.
+事前に書かれている `computer_factorial` 関数のコードを完成させてください。ユーザー定義の関数についてはまだ説明していませんが、このチャレンジでは関数の仕組みを知らなくても大丈夫です。
 
-> Note: You don't need to test for edge cases like invalid input. We'll learn how to handle edge cases and exceptions later on in the course.
+> 注: 無効な入力などのエッジケースをテストする必要はありません。エッジケースや例外を処理する方法については、このコースで後ほど説明します。

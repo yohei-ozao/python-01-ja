@@ -1,13 +1,13 @@
-# Challenge 1
+# チャレンジ1
 
-In the `temp_convert.py` file, write a program that takes in two inputs from the user. The first input is the temperature degree and the second input is the temperature unit. If the input temperature unit is Fahrenheit, the program should convert it to Celsius and vice versa.
+ユーザーから2つの入力を受け取るプログラムを `temp_convert.py` ファイルに書いてください。入力の1つ目は温度、2つ目は温度の単位です。入力された温度単位が華氏の場合は単位を摂氏に変換し、摂氏の場合は華氏に変換します。
 
-- Valid input for temperature degree: any number whether positive or negative.
-- Valid input for temperature unit: `"f"` letter for Fahrenheit and `"c"` letter for Celsius.
+- 温度の有効な入力値: 正または負の任意の数値
+- 温度単位の有効な入力値: 華氏の場合は文字 `f`、摂氏の場合は文字 `c`
 
-Complete the code inside the `convert` function that is pre-written for you. We didn't cover user-defined functions yet but all you need to write for this challenge doesn't involve how functions work.
+事前に書かれている `convert` 関数のコードを完成させてください。ユーザー定義の関数についてはまだ説明していませんが、このチャレンジでは関数の仕組みを知らなくても大丈夫です。
 
-> Note: You don't need to test for edge cases like invalid input. We'll learn how to handle edge cases and exceptions later on in the course.
+> 注: 無効な入力などのエッジケースをテストする必要はありません。エッジケースや例外を処理する方法については、このコースで後ほど説明します。
 
 
 

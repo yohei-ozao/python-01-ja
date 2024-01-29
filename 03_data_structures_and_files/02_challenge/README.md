@@ -1,13 +1,13 @@
-# Challenge 2 (Live)
+# チャレンジ2 (ライブ)
 
-Rock, Paper, Scissors is a simple hand game that is often used as a decision-making tool between two people. The game has three possible outcomes for each pair of choices: rock, paper, and scissors.
+じゃんけんは、2人の間で物事を決めるためによく使われる簡単なゲームです。このゲームではそれぞれの人がグー (石)、チョキ (はさみ)、パー (紙) の3つから選択します。
 
-Here are the basic rules of the game:
+ゲームの基本的なルールは次のとおりです。
 
-- **Rock crushes Scissors**: Rock wins against scissors because a rock can break or crush scissors.
-- **Scissors cuts Paper**: Scissors wins against paper because scissors can cut through paper.
-- **Paper covers Rock**: Paper wins against rock because paper can cover or wrap around rock.
+- **グーはチョキに勝つ**: 石ははさみを壊すことができるので、グーはチョキに勝ちます。
+- **チョキはパーに勝つ**: はさみは紙を切ることができるので、チョキはパーに勝ちます。
+- **パーはグーに勝つ**: 紙は石を包むことができるので、パーはグーに勝ちます。
 
-Write a program that simulates the rock paper scissors game between two players — the computer and yourself.
+2人のプレイヤー (コンピュータと自分) のじゃんけんをシミュレートするプログラムを書いてください。
 
-You should use the `random` module to produce random numbers that can be used in the computer decision.
+`random` モジュールが生成する乱数にもとづいて、コンピュータが出す手を決めてください。
