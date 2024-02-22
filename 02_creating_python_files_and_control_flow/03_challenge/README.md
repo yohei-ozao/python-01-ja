@@ -4,5 +4,5 @@
 
 出力の例:
 
-入力された文字列: Hello world!
+入力された文字列: Hello world!  
 母音の数: 3
