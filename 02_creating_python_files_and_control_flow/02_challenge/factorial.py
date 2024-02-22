@@ -1,9 +1,12 @@
 def compute_factorial():
-    # Your code here
-    # Edit the number variable to take the temperature degree as input from the user. Don't forget to convert it to an integer
+    # ここにコードを書いてください
+    # number変数を編集し、ユーザー入力として正の整数を受け取ります。整数に変換することを忘れないでください
     number = 0
 
-    # Edit the result variable to store the final result of the computation
+    # result変数を編集し、最終的な計算結果を保存します
     result = 0
 
     return result
+
+
+compute_factorial()

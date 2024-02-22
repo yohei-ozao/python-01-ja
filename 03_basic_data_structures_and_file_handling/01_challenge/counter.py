@@ -13,14 +13,8 @@ def counter():
         "strawberry",
     ]
 
-    # Your code here
-    for fruit in fruits:
-        if fruit not in occurrences:
-            occurrences[fruit] = 1
-        else:
-            occurrences[fruit] += 1
-
-    for k, v in occurrences.items():
-        print(f"{k}: {v}")
+    # ここにコードを書いてください
 
     return occurrences
+
+print(counter())
