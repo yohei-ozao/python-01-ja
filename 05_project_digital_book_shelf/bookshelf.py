@@ -9,7 +9,8 @@ confirmselection = "You selected: "
 addtitlemessage = "Please input the book title: "
 addunreadmessage = "Please input read or unread: "
 edittitlemessage = "Please input the book title you want to edit: "
-
+searchtitle = "Please input the book title you want to search: "
+deletetitle = "Please input the book title you want to delete: "
 
 # 辞書とリストの初期化
 bookshelf = []
@@ -81,7 +82,7 @@ def addbook():
             for row in bookshelf:
                 idlist = [row["id"]]
                 titlelist =[row["title"]]
-        #bookshelfがからでない場合、空いている一番小さいインデックス番号にデータを配置
+        #bookshelfが空でない場合、空いている一番小さいインデックス番号にデータを配置
         elif len(bookshelf) != 0:
             idlist = [i.get("id") for i in bookshelf]
             titlelist = [i.get("title") for i in bookshelf]
@@ -135,14 +136,31 @@ def editbook():
 
 #本を検索する関数
 def searchbook(): 
+    print(searchtitle)
+    title = str(input())
+    matching_books = [book for book in bookshelf if title in book["title"]]
+    print(tabulate(matching_books))
     return
 
 #本を消去する関数
 def deletebook(): 
+    bookdata = {}
+    print(deletetitle)
+    title = str(input())
+    list_search = list(filter(lambda item : item["title"] == title, bookshelf))
+    bookdata = list_search[0]
+    id = bookdata["id"]
+    delete_item = bookshelf.pop(id)
+    print("Delete: " + str(title))
     return
 
 #統計データを見る関数
 def libstats(): 
+    read_books = [book for book in bookshelf if book['status'] == True]
+    unread_books = [book for book in bookshelf if book['status'] == False]
+    print("The number of books in this shelf is: " + str(len(bookshelf)))
+    print("The number of read books in this shelf is: " + str(len(read_books)))
+    print("The number of unread books in this shelf is: " + str(len(unread_books)))
     return
 
 #bookshelf.pyを修了する関数
